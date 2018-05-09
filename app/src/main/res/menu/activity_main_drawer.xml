@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_berita"
+            android:icon="@drawable/ic_content"
+            android:title="Lokasi Ngetrip Terbaru" />
+        <!--<item-->
+            <!--android:id="@+id/nav_lapor"-->
+            <!--android:icon="@drawable/ic_report"-->
+            <!--android:title="Tambah Lokasi NgeTrip" />-->
+        <item
+            android:id="@+id/nav_kompas"
+            android:icon="@drawable/ic_compass"
+            android:title="Navigasi Ngetrip" />
+        <item
+            android:id="@+id/nav_makan"
+            android:icon="@drawable/ic_restaurant"
+            android:title="Rumah Makan"
+            />
+        <item
+            android:id="@+id/nav_spbu"
+            android:icon="@drawable/ic_local_gas_station_black_24dp"
+            android:title="SPBU"
+            />
+        <item
+            android:id="@+id/nav_mesjid"
+            android:icon="@drawable/ic_mosque"
+            android:title="Masjid"
+            />
+        <item
+            android:id="@+id/nav_bengkel"
+            android:icon="@drawable/ic_bengkel2"
+            android:title="Bengkel Motor"/>
+    </group>
+
+
+
+    <item android:title="">
+        <menu>
+
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help"
+                android:title="Smart Trip FAQ" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info"
+                android:title="Tentang" />
+        </menu>
+
+    </item>
+
+</menu>
